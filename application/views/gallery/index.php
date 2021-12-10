@@ -1,5 +1,6 @@
-<h2><?= $title; ?></h2>
-
+<center>
+	<h2><?= $title; ?></h2>
+</center>
 <?php if ($this->session->userdata('logged_in')) : ?>
 	<a href="<?php echo base_url(); ?>gallery/create"><button>Upload Gambar</button></a><br>
 <?php endif; ?>
@@ -10,15 +11,16 @@
 		?>
 		<!-- -------------------------------------------------------------------------------- -->
 		<div class="img-box">
-			<img id="myImg" src="<?php echo site_url(); ?>assets/images/gallery/<?php echo $gal['upload_image']; ?>" />
+			<img src="<?php echo site_url(); ?>assets/images/gallery/<?php echo $gal['upload_image']; ?>" />
 			<div class="transparent-box">
 				<div class="caption">
 					<p><?php echo $gal['title']; ?></p>
 					<p>Diambil pada tanggal <?php echo $date_time ?></p>
 					<button onclick="Download('<?php echo site_url(); ?>assets/images/gallery/<?php echo $gal['upload_image']; ?>','<?php echo $gal['upload_image']; ?>')">Download</button>
+					<a href="<?php echo site_url(); ?>assets/images/gallery/<?php echo $gal['upload_image']; ?>" target=”_blank”><button onclick="">Lihat</button></a>
 					<?php if ($this->session->userdata('logged_in')) : ?>
 						<?php echo form_open('/gallery/delete/' . $gal['id']); ?>
-						<input style="font-family:Poppins, sans-serif;" type="submit" value="Hapus" class="btn btn-danger">
+						<button style="margin-top:5px;margin-bottom: -25px" type="submit" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
 						</form>
 					<?php endif; ?>
 					<script>
@@ -33,13 +35,7 @@
 					</script>
 				</div>
 			</div>
-			<div id="myModal" class="modal">
-				<span class="close">&times;</span>
-				<img class="modal-content" id="img01">
-				<div id="caption"></div>
-			</div>
 		</div>
-
 	<?php endforeach; ?>
 </div>
 <div class="pagination-links">

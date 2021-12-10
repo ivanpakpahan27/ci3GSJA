@@ -13,7 +13,7 @@ class Posts extends CI_Controller
         // Init Pagination
         $this->pagination->initialize($config);
 
-        $data['title'] = 'Postingan Terbaru';
+        $data['title'] = 'Postingan';
 
         $data['posts'] = $this->post_model->get_posts(FALSE, $config['per_page'], $offset);
 

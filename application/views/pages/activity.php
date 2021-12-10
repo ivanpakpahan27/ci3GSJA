@@ -1,3 +1,7 @@
+<center>
+    <h2>Daftar Kegiatan</h2>
+</center>
+<br><br>
 <div class="carousel-home">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -39,16 +43,17 @@
         </a> -->
     </div>
 </div>
-<br><br>
+<br><br><br>
 <center>
-    <h4><b>Jadwal Kegiatan</b></h4>
+    <h3><b>Jadwal</b></h3>
 </center>
-<br><br>
+<br>
 <table class="styled-table">
     <thead>
         <tr>
             <th>Kegiatan</th>
             <th>Hari</th>
+            <th>Waktu</th>
             <th>Tempat</th>
         </tr>
     </thead>
@@ -56,12 +61,20 @@
         <tr>
             <td>Ibadah Raya</td>
             <td>Minggu</td>
+            <td>10.00 WIB</td>
             <td>Gereja</td>
         </tr>
-        <tr class="active-row">
+        <tr>
+            <td>Ibadah Sekolah Minggu</td>
+            <td>Minggu</td>
+            <td>10.00 WIB</td>
+            <td>Pastori</td>
+        </tr>
+        <tr>
             <td>Doa Puasa</td>
             <td>Jum'at</td>
-            <td>-</td>
+            <td>18.30 WIB</td>
+            <td>Ditentukan</td>
         </tr>
         <!-- and so on... -->
     </tbody>

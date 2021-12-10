@@ -1,4 +1,6 @@
-<h2 style="font-family:Poppins, sans-serif;"><?= $title; ?></h2>
+<center>
+    <h2 style="font-family:Poppins, sans-serif;"><?= $title; ?></h2>
+</center>
 <?php foreach ($posts as $post) : ?>
     <?php
     $originalDate = $post['created_at'];

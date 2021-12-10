@@ -2,15 +2,18 @@
 <footer>
 	<div class="footer-content">
 		<h2>GSJA Pemuridan</h2>
-		<p>Kec. Padang Jaya<br>Kab. Bengkulu Utara</p><br>
+		<p>Ds. Tanah Tinggi, No.22, RT 011, RW 008, Dusun 3<br>
+			Kec. Padang Jaya, Kab. Bengkulu Utara, Bengkulu, Kode Pos 38657<br>
+			Telp. 085268018218, Email. gsjaunit10@gmail.com</p>
 	</div>
+	<br>
 	<div class="social-media">
 		<ul class="socials">
-			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-			<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-			<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-			<li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+			<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+			<li><a href="#"><i class="fab fa-twitter-square"></i></i></a></li>
+			<li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+			<li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+			<li><a href="#"><i class="fab fa-linkedin-square"></i></a></li>
 		</ul>
 	</div>
 	<div class="footer-bottom">

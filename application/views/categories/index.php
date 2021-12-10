@@ -1,6 +1,7 @@
 <center>
 	<h2><?= $title; ?></h2>
 </center>
+<br><br><br><br><br>
 <ul class="list-group">
 	<?php foreach ($categories as $category) : ?>
 		<li class="list-group-item"><a href="<?php echo site_url('/categories/posts/' . $category['id']); ?>"><?php echo $category['name']; ?></a>

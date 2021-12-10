@@ -33,3 +33,7 @@
         </a>
     </div>
 </div>
+<div class="tema-gereja">
+    <p class="tema">"Berdirilah Teguh, Jangan Goyah"</p>
+    <p class="perikop">- 1 Korintus 15:58</p>
+</div>
